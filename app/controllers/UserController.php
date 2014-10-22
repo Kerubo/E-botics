@@ -82,6 +82,10 @@ class UserController extends \BaseController {
  
         return Redirect::to('/user');
     }
+    public function getLogout() {
+    Auth::logout();
+    return Redirect::to('user/login')->with('message', 'Your are now logged out!');
+}
  
     /**
      * Remove the specified user from storage.

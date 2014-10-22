@@ -12,7 +12,7 @@ class UserTableSeeder extends Seeder {
         $vader = DB::table('users')->insert([
                 'username'   => 'Lucy',
                 'email'      => 'lucykerubo763@gmail.com',
-                'password'   => Hash::make('thegooglegirl'),
+                'password'   => Hash::make('safaricom'),
                 'first_name' => 'Lucy',
                 'last_name'  => 'Kerubo',
                 'created_at' => new DateTime(),

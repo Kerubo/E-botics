@@ -12,7 +12,7 @@
         @endforeach
     @endif
  
-    <h1><i class='fa fa-lock'></i> Login</h1>
+    <h1><i class='fa fa-lock'></i>Admin Login</h1>
  
     {{ Form::open(['role' => 'form']) }}
  
@@ -32,6 +32,10 @@
  
     {{ Form::close() }}
  
-</div>
+   
+      <a href="/login" >users Login|signup</a>
+   
+    
+    
  
 @stop
